@@ -1,0 +1,22 @@
+[2021-10-29 10:23:56] [ ERROR] [Main:44] Mesmo Id
+[2021-10-29 10:26:30] [ ERROR] [Main:44] Mesmo Id
+[2021-10-29 10:28:16] [ ERROR] [Main:44] Mesmo Id
+[2021-10-29 10:29:04] [ ERROR] [Main:44] Mesmo Id
+[2021-10-29 10:29:04] [ INFO ] [Main:62] O Funcionario Felipe foi deletado
+[2021-10-29 10:29:04] [ INFO ] [Main:63] O Funcionario Vinicius foi deletado
+[2021-10-29 10:30:54] [ ERROR] [Main:42] Mesmo Id
+[2021-10-29 10:30:54] [ INFO ] [Main:60] O Funcionario Adryana foi deletado
+[2021-10-29 10:30:54] [ INFO ] [Main:61] O Funcionario Felipe foi deletado
+[2021-10-29 15:02:33] [ ERROR] [Main:57] || CANNOT REPEAT AN ID ||Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIOS(ID) [2, 'Felipe', 'Rosa', 34, 'masculino']"; SQL statement:
+INSERT INTO funcionarios (Id, primeiroNome, sobrenome, idade, genero)VALUES (2, 'Vinicius', 'Mendes',18, 'masculino') [23505-199]
+[2021-10-29 15:02:33] [ INFO ] [Main:80] Id: 1 primeiroNome: Adryana sobrenome: Portugal idade: 21 genero: feminino
+[2021-10-29 15:02:33] [ INFO ] [Main:80] Id: 2 primeiroNome: Felipe sobrenome: Rosa idade: 34 genero: masculino
+[2021-10-29 15:02:33] [ INFO ] [Main:66] Delete funcionario id=1
+[2021-10-29 15:04:01] [ ERROR] [Main:57] || CANNOT REPEAT AN ID ||Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIOS(ID) [2, 'Felipe', 'Rosa', 34, 'masculino']"; SQL statement:
+INSERT INTO funcionarios (Id, primeiroNome, sobrenome, idade, genero)VALUES (2, 'Vinicius', 'Mendes',18, 'masculino') [23505-199]
+[2021-10-29 15:04:01] [ INFO ] [Main:80] Id: 1 primeiroNome: Adryana sobrenome: Portugal idade: 21 genero: feminino
+[2021-10-29 15:04:01] [ INFO ] [Main:80] Id: 2 primeiroNome: Felipe sobrenome: Rosa idade: 34 genero: masculino
+[2021-10-29 15:04:01] [ DEBUG] [Main:63] O Funcionario: Felipi foi atualizado!
+[2021-10-29 15:04:01] [ INFO ] [Main:66] Delete funcionario id=1
+[2021-10-29 15:04:01] [ INFO ] [Main:68] O funcionario Felipe foi deletado
+[2021-10-29 15:04:01] [ INFO ] [Main:80] Id: 2 primeiroNome: Felipi sobrenome: Rosa idade: 34 genero: masculino
